@@ -8,3 +8,10 @@ describe('My Login application', () => {
     })
 })
 
+describe('My Login application', () => {
+    it('should not login with valid credentials', async () => {
+        await LoginPage.open()
+
+        await LoginPage.login('wrong_user', 'not_so_secret_sauce?')
+    })
+})
