@@ -5,3 +5,5 @@ export default class Page {
         return browser.url(`https://www.saucedemo.com/`)
     }
 }
+
+// this checks if it brought you to the right login web page

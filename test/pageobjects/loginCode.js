@@ -28,3 +28,6 @@ class LoginPage extends Page {
 }
 
 export default new LoginPage();
+
+// this is a template where you will fill out the login inputs with your username and password.
+// it will then press the login button after filling out the information

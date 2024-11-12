@@ -8,3 +8,5 @@ class FailurePage extends Page {
 }
 
 export default new FailurePage();
+
+// this checks if you didn't go to the right page and if you are still on the login page by checking if the failure window popped up
