@@ -9,4 +9,4 @@ class SecurePage extends Page {
 
 export default new SecurePage();
 
-// this checks if the login was succesful be seeing if an object on the next page exists
+// this checks if the login was succesful be seeing if an object in the HTML on the next page exists
